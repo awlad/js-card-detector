@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script  src="card-detector.min.js"></script>
+    <title> Card Detector</title>
+</head>
+<body>
+    <div>
+        <input type="text"  id="js-cc-number">
+
+        <span id="js-show-brand" style="background-color: gainsboro; font-size: large ">
+        </span>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $("#js-cc-number").cardDetector($("#js-show-brand"));
+</script>
